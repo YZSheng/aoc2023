@@ -82,3 +82,289 @@ clj꞉aoc2023.day01.solution꞉> 
 clj꞉aoc2023.day01.solution꞉> 
 56042
 clj꞉aoc2023.day01.solution꞉> 
+142
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/part-one
+clj꞉aoc2023.day01.solution꞉> 
+142
+clj꞉aoc2023.day01.solution꞉> 
+56042
+clj꞉aoc2023.day01.solution꞉> 
+"asdf"
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-substrings
+clj꞉aoc2023.day01.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day01/solution.clj:35:5).
+; Unable to resolve symbol: digits in this context
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/digits
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/extract-digits-with-spelt-out
+clj꞉aoc2023.day01.solution꞉> 
+; Execution error (NumberFormatException) at java.lang.NumberFormatException/forInputString (NumberFormatException.java:67).
+; For input string: "e3"
+clj꞉aoc2023.day01.solution꞉> 
+"1"
+clj꞉aoc2023.day01.solution꞉> 
+"219"
+clj꞉aoc2023.day01.solution꞉> 
+"abc123xyz"
+clj꞉aoc2023.day01.solution꞉> 
+"7pqrst6teen"
+clj꞉aoc2023.day01.solution꞉> 
+"x2ne34"
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/part-one
+clj꞉aoc2023.day01.solution꞉> 
+142
+clj꞉aoc2023.day01.solution꞉> 
+56042
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-substrings
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/digits
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/extract-digits-with-spelt-out
+clj꞉aoc2023.day01.solution꞉> 
+291
+clj꞉aoc2023.day01.solution꞉> 
+"219"
+clj꞉aoc2023.day01.solution꞉> 
+"eigh23"
+clj꞉aoc2023.day01.solution꞉> 
+"eigh23"
+clj꞉aoc2023.day01.solution꞉> 
+"8wothree"
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-number-words
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-number-words
+clj꞉aoc2023.day01.solution꞉> 
+"two1nine"
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-number-words
+clj꞉aoc2023.day01.solution꞉> 
+"two1nine"
+clj꞉aoc2023.day01.solution꞉> 
+"eightwothree"
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-number-words
+clj꞉aoc2023.day01.solution꞉> 
+"eightwothree"
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-substrings
+clj꞉aoc2023.day01.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day01.solution/replace-substrings$fn (form-init3929706289634625678.clj:45).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day01.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day01.solution/replace-substrings$fn (form-init3929706289634625678.clj:45).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-substrings
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-substrings
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-number-words
+clj꞉aoc2023.day01.solution꞉> 
+"zeroonethree"
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-number-words
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-number-words
+clj꞉aoc2023.day01.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day01.solution/replace-number-words$fn (form-init3929706289634625678.clj:47).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/order-map-by-key-position
+clj꞉aoc2023.day01.solution꞉> 
+{"six" "6", "three" "3", "two" "2", "seven" "7", "five" "5", "eight" "8", "one" "1", "nine" "9", "four" "4"}
+clj꞉aoc2023.day01.solution꞉> 
+142
+clj꞉aoc2023.day01.solution꞉> 
+56042
+clj꞉aoc2023.day01.solution꞉> 
+{"six" "6", "three" "3", "two" "2", "seven" "7", "five" "5", "eight" "8", "one" "1", "nine" "9", "four" "4"}
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/digits
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-substrings
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/extract-digits-with-spelt-out
+clj꞉aoc2023.day01.solution꞉> 
+"eigh23"
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/sort-by-substring
+clj꞉aoc2023.day01.solution꞉> 
+(["eight" "8"] ["two" "2"] ["three" "3"] ["one" "1"] ["four" "4"] ["five" "5"] ["six" "6"] ["seven" "7"] ["nine" "9"])
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-substrings
+clj꞉aoc2023.day01.solution꞉> 
+281
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-substrings
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/sort-by-substring
+clj꞉aoc2023.day01.solution꞉> 
+55359
+clj꞉aoc2023.day01.solution꞉> 
+281
+clj꞉aoc2023.day01.solution꞉> 
+281
+clj꞉aoc2023.day01.solution꞉> 
+55359
+clj꞉aoc2023.day01.solution꞉> 
+"1"
+clj꞉aoc2023.day01.solution꞉> 
+"7pqrst6teen"
+clj꞉aoc2023.day01.solution꞉> 
+"z1ight234"
+clj꞉aoc2023.day01.solution꞉> 
+"123"
+clj꞉aoc2023.day01.solution꞉> 
+"abc"
+clj꞉aoc2023.day01.solution꞉> 
+"aaa"
+clj꞉aoc2023.day01.solution꞉> 
+"EIGHT"
+clj꞉aoc2023.day01.solution꞉> 
+" . "
+clj꞉aoc2023.day01.solution꞉> 
+"  "
+clj꞉aoc2023.day01.solution꞉> 
+; Execution error (FileNotFoundException) at java.io.FileInputStream/open0 (FileInputStream.java:-2).
+;  
+;   (No such file or directory)
+clj꞉aoc2023.day01.solution꞉> 
+; Execution error (NumberFormatException) at java.lang.NumberFormatException/forInputString (NumberFormatException.java:67).
+; For input string: ""
+clj꞉aoc2023.day01.solution꞉> 
+36
+clj꞉aoc2023.day01.solution꞉> 
+36
+clj꞉aoc2023.day01.solution꞉> 
+37
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-spelled-numbers
+clj꞉aoc2023.day01.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day01.solution/replace-number-words$fn (form-init3929706289634625678.clj:47).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day01.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day01.solution/replace-spelled-numbers$fn (form-init3929706289634625678.clj:56).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-spelled-numbers
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-spelled-numbers
+clj꞉aoc2023.day01.solution꞉> 
+"eightwothree"
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-spelled-numbers
+clj꞉aoc2023.day01.solution꞉> 
+"eightwothree"
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-spelled-numbers
+clj꞉aoc2023.day01.solution꞉> 
+"eightwothree"
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/replace-spelled-numbers
+clj꞉aoc2023.day01.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day01.solution/replace-spelled-numbers$fn (form-init3929706289634625678.clj:56).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day01.solution꞉> 
+(["one" "one"] ["1" "1"] ["2" "2"] ["3" "3"])
+clj꞉aoc2023.day01.solution꞉> 
+(["1" "1"] ["2" "2"] ["3" "3"])
+clj꞉aoc2023.day01.solution꞉> 
+(["1" "1"] ["2" "2"] ["3" "3"])
+clj꞉aoc2023.day01.solution꞉> 
+(["two" "two"] ["1" "1"] ["2" "2"] ["3" "3"])
+clj꞉aoc2023.day01.solution꞉> 
+("two" "1" "2" "3")
+clj꞉aoc2023.day01.solution꞉> 
+("two" "1" "2" "3")
+clj꞉aoc2023.day01.solution꞉> 
+("one" "1" "2" "3")
+clj꞉aoc2023.day01.solution꞉> 
+("two" "1" "2" "3")
+clj꞉aoc2023.day01.solution꞉> 
+("two")
+clj꞉aoc2023.day01.solution꞉> 
+("two")
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/translate-to-digit
+clj꞉aoc2023.day01.solution꞉> 
+"1"
+clj꞉aoc2023.day01.solution꞉> 
+"abce"
+clj꞉aoc2023.day01.solution꞉> 
+"1"
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/part-two
+clj꞉aoc2023.day01.solution꞉> 
+; Execution error (NumberFormatException) at java.lang.NumberFormatException/forInputString (NumberFormatException.java:67).
+; For input string: "twonine"
+clj꞉aoc2023.day01.solution꞉> 
+(("two" "1" "nine")
+ ("eight" "three")
+ ("one" "2" "three")
+ ("two" "3" "four")
+ ("4" "nine" "eight" "seven" "2")
+ ("one" "2" "3" "4")
+ ("7" "six"))
+clj꞉aoc2023.day01.solution꞉> 
+(["two" "nine"] ["eight" "three"] ["one" "three"] ["two" "four"] ["4" "2"] ["one" "4"] ["7" "six"])
+clj꞉aoc2023.day01.solution꞉> 
+(["two" "nine"] ["eight" "three"] ["one" "three"] ["two" "four"] ["4" "2"] ["one" "4"] ["7" "six"])
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/part-two
+clj꞉aoc2023.day01.solution꞉> 
+281
+clj꞉aoc2023.day01.solution꞉> 
+55362
+clj꞉aoc2023.day01.solution꞉> 
+("two" "three")
+clj꞉aoc2023.day01.solution꞉> 
+("two" "three")
+clj꞉aoc2023.day01.solution꞉> 
+("eight" "three")
+clj꞉aoc2023.day01.solution꞉> 
+("eight")
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/find-overlapping-matches
+clj꞉aoc2023.day01.solution꞉> 
+("eight" "two" "two" "two" "two")
+clj꞉aoc2023.day01.solution꞉> 
+("eight" "two" "two" "two" "two" "three" "three" "three")
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/find-overlapping-matches
+clj꞉aoc2023.day01.solution꞉> 
+("eight" "two" "three")
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/pattern
+clj꞉aoc2023.day01.solution꞉> 
+("eight" "two" "three")
+clj꞉aoc2023.day01.solution꞉> 
+(["two" "nine"] ["eight" "three"] ["one" "three"] ["two" "four"] ["4" "2"] ["one" "4"] ["7" "six"])
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/part-two
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/part-two
+clj꞉aoc2023.day01.solution꞉> 
+281
+clj꞉aoc2023.day01.solution꞉> 
+55340
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/clean-input
+clj꞉aoc2023.day01.solution꞉> 
+"eight8eightwo2twothree3three"
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/part-two
+clj꞉aoc2023.day01.solution꞉> 
+142
+clj꞉aoc2023.day01.solution꞉> 
+#'aoc2023.day01.solution/part-two
+clj꞉aoc2023.day01.solution꞉> 
+281
+clj꞉aoc2023.day01.solution꞉> 
+55358
+clj꞉aoc2023.day01.solution꞉> 
