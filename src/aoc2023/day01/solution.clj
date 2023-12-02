@@ -1,18 +1,23 @@
 (ns aoc2023.day01.solution
   (:require [clojure.string :as string]))
 
-(defn part-one [input]
-  (->> input
-       slurp
-       (string/split-lines)
-       (map #(re-seq #"\d" %))
-       (map (juxt first last))
-       (map #(string/join %))
-       (map #(Integer/parseInt %))
-       (reduce +)))
+(defn solution
+  ([input]
+   (solution input identity))
+  ([input clean-fn]
+   (->> input
+        slurp
+        (string/split-lines)
+        (map clean-fn)
+        (map #(re-seq #"\d" %))
+        (map (juxt first last))
+        (map #(string/join %))
+        (map #(Integer/parseInt %))
+        (reduce +))))
 
-(part-one "resources/day01/sample.txt")
-(part-one "resources/day01/input.txt")
+
+(solution "resources/day01/sample.txt")
+(solution "resources/day01/input.txt")
 
 (defn clean-input [s]
   (reduce (fn [acc [old new]]
@@ -30,16 +35,5 @@
 
 (clean-input "eightwothree")
 
-(defn part-two [input]
-  (->> input
-       slurp
-       (string/split-lines)
-       (map clean-input)
-       (map #(re-seq #"\d" %))
-       (map (juxt first last))
-       (map #(string/join %))
-       (map #(Integer/parseInt %))
-       (reduce +)))
-
-(part-two "resources/day01/sample_part2.txt")
-(part-two "resources/day01/input.txt")
+(solution "resources/day01/sample_part2.txt" clean-input)
+(solution "resources/day01/input.txt" clean-input)
