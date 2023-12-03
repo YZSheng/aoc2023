@@ -378,3 +378,164 @@ clj꞉aoc2023.day01.solution꞉> 
 clj꞉aoc2023.day01.solution꞉> 
 55358
 clj꞉aoc2023.day01.solution꞉> 
+2
+clj꞉aoc2023.day02.solution꞉> 
+nil
+clj꞉aoc2023.day02.solution꞉> 
+nil
+clj꞉aoc2023.day02.solution꞉> 
+nil
+clj꞉aoc2023.day02.solution꞉> 
+nil
+clj꞉aoc2023.day02.solution꞉> 
+nil
+clj꞉aoc2023.day02.solution꞉> 
+nil
+clj꞉aoc2023.day02.solution꞉> 
+nil
+clj꞉aoc2023.day02.solution꞉> 
+nil
+clj꞉aoc2023.day02.solution꞉> 
+["1 red" "1"]
+clj꞉aoc2023.day02.solution꞉> 
+["11 red" "11"]
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/find-red
+clj꞉aoc2023.day02.solution꞉> 
+11
+clj꞉aoc2023.day02.solution꞉> 
+; Execution error (NumberFormatException) at java.lang.Integer/parseInt (Integer.java:630).
+; Cannot parse null string
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/find-red
+clj꞉aoc2023.day02.solution꞉> 
+11
+clj꞉aoc2023.day02.solution꞉> 
+nil
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/find-red
+clj꞉aoc2023.day02.solution꞉> 
+0
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/find-red
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/find-red
+clj꞉aoc2023.day02.solution꞉> 
+0
+clj꞉aoc2023.day02.solution꞉> 
+nil
+clj꞉aoc2023.day02.solution꞉> 
+0
+clj꞉aoc2023.day02.solution꞉> 
+nil
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/find-red
+clj꞉aoc2023.day02.solution꞉> 
+11
+clj꞉aoc2023.day02.solution꞉> 
+0
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/make-regex
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/find-color
+clj꞉aoc2023.day02.solution꞉> 
+; Execution error (ArityException) at aoc2023.day02.solution/eval9396 (form-init3929706289634625678.clj:23).
+; Wrong number of args (1) passed to: aoc2023.day02.solution/find-color
+clj꞉aoc2023.day02.solution꞉> 
+11
+clj꞉aoc2023.day02.solution꞉> 
+0
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/extract-game-index
+clj꞉aoc2023.day02.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day02.solution/extract-game-index (form-init3929706289634625678.clj:22).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.String (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/extract-game-index
+clj꞉aoc2023.day02.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day02.solution/extract-game-index (form-init3929706289634625678.clj:22).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.String (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day02.solution꞉> 
+["1" "1"]
+clj꞉aoc2023.day02.solution꞉> 
+"1"
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/extract-game-index
+clj꞉aoc2023.day02.solution꞉> 
+1
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/parse-line
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/parse-line
+clj꞉aoc2023.day02.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day02/solution.clj:33:27).
+; No such namespace: str
+clj꞉aoc2023.day02.solution꞉> 
+nil
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/parse-line
+clj꞉aoc2023.day02.solution꞉> 
+{:game 1,
+ :results
+ (#function[clojure.core/juxt/fn--5893] #function[clojure.core/juxt/fn--5893] #function[clojure.core/juxt/fn--5893])}
+clj꞉aoc2023.day02.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day02/solution.clj:33:3).
+; Unable to resolve symbol: segements in this context
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/parse-line
+clj꞉aoc2023.day02.solution꞉> 
+{:game 1,
+ :results
+ (#function[clojure.core/juxt/fn--5893] #function[clojure.core/juxt/fn--5893] #function[clojure.core/juxt/fn--5893]),
+ :segments ["3 blue, 4 red" " 1 red, 2 green, 6 blue" " 2 green"]}
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/parse-line
+clj꞉aoc2023.day02.solution꞉> 
+{:game 1, :results (3 6 0), :segments ["3 blue, 4 red" " 1 red, 2 green, 6 blue" " 2 green"]}
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/parse-line
+clj꞉aoc2023.day02.solution꞉> 
+{:game 1, :results [3 6 0], :segments ["3 blue, 4 red" " 1 red, 2 green, 6 blue" " 2 green"]}
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/parse-line
+clj꞉aoc2023.day02.solution꞉> 
+{:game 1, :results [[4 3 0] [1 6 2] [0 0 2]], :segments ["3 blue, 4 red" " 1 red, 2 green, 6 blue" " 2 green"]}
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/parse-line
+clj꞉aoc2023.day02.solution꞉> 
+{:game 1, :results [[4 3 0] [1 6 2] [0 0 2]]}
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/parse-input
+clj꞉aoc2023.day02.solution꞉> 
+({:game 1, :results [[4 3 0] [1 6 2] [0 0 2]]}
+ {:game 2, :results [[0 1 2] [1 4 3] [0 1 1]]}
+ {:game 3, :results [[20 6 8] [4 5 13] [1 0 5]]}
+ {:game 4, :results [[3 6 1] [6 0 3] [14 15 3]]}
+ {:game 5, :results [[6 1 3] [1 2 2]]})
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/boundary
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/part-one
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/part-one
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/part-one
+clj꞉aoc2023.day02.solution꞉> 
+({:game 1, :results [[4 3 0] [1 6 2] [0 0 2]]}
+ {:game 2, :results [[0 1 2] [1 4 3] [0 1 1]]}
+ {:game 5, :results [[6 1 3] [1 2 2]]})
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/part-one
+clj꞉aoc2023.day02.solution꞉> 
+8
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/is-result-possible
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/is-result-possible
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/part-one
+clj꞉aoc2023.day02.solution꞉> 
+8
+clj꞉aoc2023.day02.solution꞉> 
+2716
+clj꞉aoc2023.day02.solution꞉> 
