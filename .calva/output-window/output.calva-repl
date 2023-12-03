@@ -539,3 +539,62 @@ clj꞉aoc2023.day02.solution꞉> 
 clj꞉aoc2023.day02.solution꞉> 
 2716
 clj꞉aoc2023.day02.solution꞉> 
+4
+clj꞉aoc2023.day02.solution꞉> 
+4
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/find-max
+clj꞉aoc2023.day02.solution꞉> 
+4
+clj꞉aoc2023.day02.solution꞉> 
+4
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/find-max
+clj꞉aoc2023.day02.solution꞉> 
+6
+clj꞉aoc2023.day02.solution꞉> 
+4
+clj꞉aoc2023.day02.solution꞉> 
+2
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/find-max
+clj꞉aoc2023.day02.solution꞉> 
+4
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/find-min-r-b-g
+clj꞉aoc2023.day02.solution꞉> 
+[[4 3 0] [1 6 2] [0 0 2]]
+clj꞉aoc2023.day02.solution꞉> 
+4
+clj꞉aoc2023.day02.solution꞉> 
+4
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/find-min-r-b-g
+clj꞉aoc2023.day02.solution꞉> 
+[[4 3 0] [1 6 2] [0 0 2]]
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/find-min-r-b-g
+clj꞉aoc2023.day02.solution꞉> 
+[4 6 2]
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/part-two
+clj꞉aoc2023.day02.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day02.solution/part-two (form-init3929706289634625678.clj:70).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/part-two
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/part-two
+clj꞉aoc2023.day02.solution꞉> 
+([4 6 2] [1 4 3] [20 6 13] [14 15 3] [6 2 3])
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/part-two
+clj꞉aoc2023.day02.solution꞉> 
+(48 12 1560 630 36)
+clj꞉aoc2023.day02.solution꞉> 
+#'aoc2023.day02.solution/part-two
+clj꞉aoc2023.day02.solution꞉> 
+2286
+clj꞉aoc2023.day02.solution꞉> 
+72227
+clj꞉aoc2023.day02.solution꞉> 
