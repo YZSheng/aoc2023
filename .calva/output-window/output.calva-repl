@@ -48,3 +48,11 @@ clj꞉aoc2023.day03.solution꞉> 
 clj꞉aoc2023.day03.solution꞉> 
 5
 clj꞉aoc2023.day03.solution꞉> 
+(0 1)
+clj꞉aoc2023.day03.solution꞉> 
+2
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/extract-numbers
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/extract-numbers
+clj꞉aoc2023.day03.solution꞉> 

@@ -15,4 +15,14 @@
               :to [0 2]}
              {:value 114
               :from [0 5]
-              :to [0 7]}} (sut/extract-number-in-line "467..114.."))))) 
+              :to [0 7]}} (sut/extract-number-in-line "467..114..")))))
+
+
+(deftest extract-numbers-in-multiline
+  (is (= #{{:value 467
+            :from [0 0]
+            :to [0 2]}
+           {:value 114
+            :from [1 5]
+            :to [1 7]}}
+         (sut/extract-numbers "467.......\n.....114.."))))
