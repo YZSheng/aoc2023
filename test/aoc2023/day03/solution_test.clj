@@ -26,3 +26,12 @@
             :from [1 5]
             :to [1 7]}}
          (sut/extract-numbers "467.......\n.....114.."))))
+
+
+(deftest extract-symbol-neighbours
+  (is (= #{[0 2] [0 3] [0 4] [1 2] [1 3] [1 4]}
+         (sut/extract-symbol-neighbours "467..114..\n...*......")))
+  (is (= #{[0 2] [0 3] [0 4]}
+         (sut/extract-symbol-neighbours "...*......")))
+  (is (= #{[0 2] [0 3] [0 4] [1 2] [1 3] [1 4] [2 2] [2 3] [2 4]}
+         (sut/extract-symbol-neighbours "467..114..\n...*......\n..35..633."))))

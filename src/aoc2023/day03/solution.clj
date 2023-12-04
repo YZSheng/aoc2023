@@ -18,9 +18,41 @@
                          :let [line (nth (str/split-lines lines) index)]]
                      (extract-number-in-line line index))))
 
-(str/index-of "467..114.." "114")
-(re-seq #"\d+" "467..114..")
+(defn non-digit-dot-indexes [s]
+  (keep-indexed (fn [idx ch]
+                  (when (and (not= \. ch)
+                             (not (Character/isDigit ch)))
+                    idx))
+                s))
+
+(defn extract-symbol-neighbours-by-line [line index max-height]
+  (let [index index
+        max-count (count line)
+        max-height max-height
+        symbol-indices (non-digit-dot-indexes line)]
+    (apply set/union (for [symbol-index symbol-indices]
+                       (set [[index (max 0 (dec symbol-index))]
+                             [index symbol-index]
+                             [index (min max-count (inc symbol-index))]
+                             [(max 0 (dec index)) (max 0 (dec symbol-index))]
+                             [(max 0 (dec index)) symbol-index]
+                             [(max 0 (dec index)) (min max-count (inc symbol-index))]
+                             [(min max-height (inc index)) (max 0 (dec symbol-index))]
+                             [(min max-height (inc index)) symbol-index]
+                             [(min max-height (inc index)) (min max-count (inc symbol-index))]])))))
+
+(defn extract-symbol-neighbours [lines]
+  (let [split-lines (str/split-lines lines)
+        max-height (dec (count split-lines))]
+    (apply set/union (for [index (range (count split-lines))
+                           :let [line (nth split-lines index)]]
+                       (extract-symbol-neighbours-by-line line index max-height)))))
 
 
-(count "abc")
-(range 2)
+(non-digit-dot-indexes "....$..123")
+(non-digit-dot-indexes "......123")
+(keep-indexed #(= %2 "1") "2134")
+
+
+(set [1 1 2 3])
+(set [[0 4] [0 4]])
