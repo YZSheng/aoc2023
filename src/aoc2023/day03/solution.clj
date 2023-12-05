@@ -2,13 +2,21 @@
   (:require [clojure.set :as set]
             [clojure.string :as str]))
 
+(defn regex-match-index-value-pairs
+  [pattern text]
+  (let [matcher (re-matcher (re-pattern pattern) text)]
+    (loop [pairs []]
+      (if (.find matcher)
+        (recur (conj pairs [(.start matcher) (.group matcher)]))
+        pairs))))
+
+
 (defn extract-number-in-line
   ([line] (extract-number-in-line line 0))
   ([line index]
    (let [index index
-         nums (re-seq #"\d+" line)]
-     (set (for [n nums
-                :let [from-index (str/index-of line n)]]
+         nums-match (regex-match-index-value-pairs #"\d+" line)]
+     (set (for [[from-index n] nums-match]
             {:value (Integer/parseInt n)
              :locations (set (for [i (range from-index (+ from-index (count n)))]
                                [index i]))})))))
@@ -27,7 +35,7 @@
 
 (defn extract-symbol-neighbours-by-line [line index max-height]
   (let [index index
-        max-count (count line)
+        max-count (dec (count line))
         max-height max-height
         symbol-indices (non-digit-dot-indexes line)]
     (apply set/union (for [symbol-index symbol-indices]
@@ -48,11 +56,15 @@
                            :let [line (nth split-lines index)]]
                        (extract-symbol-neighbours-by-line line index max-height)))))
 
+(defn part-one [lines]
+  (let [numbers (extract-numbers lines)
+        symbols-neighbours (extract-symbol-neighbours lines)
+        part-numbers (filter (fn [num]
+                               (not-empty (set/intersection (:locations num) symbols-neighbours))) numbers)]
+    (->> part-numbers
+         (map :value)
+         (apply +))))
 
-(non-digit-dot-indexes "....$..123")
-(non-digit-dot-indexes "......123")
-(keep-indexed #(= %2 "1") "2134")
 
-
-(set [1 1 2 3])
-(set [[0 4] [0 4]])
+(part-one (slurp "resources/day03/sample.txt"))
+(part-one (slurp "resources/day03/input.txt"))

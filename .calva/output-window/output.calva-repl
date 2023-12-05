@@ -28,3 +28,312 @@ clj꞉aoc2023.core꞉> 
 clj꞉aoc2023.core꞉> 
 (5 6 7)
 clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day03.solution/extract-numbers (solution.clj:17).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.CharSequence (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.CharSequence is in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day03.solution꞉> 
+["467..114.."
+ "...*......"
+ "..35..633."
+ "......#..."
+ "617*......"
+ ".....+.58."
+ "..592....."
+ "......755."
+ "...$.*...."
+ ".664.598.."]
+clj꞉aoc2023.day03.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day03.solution/extract-numbers (solution.clj:17).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.CharSequence (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.CharSequence is in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day03.solution꞉> 
+clojure.string/split (string.clj:219)
+clojure.string/split-lines (string.clj:229)
+aoc2023.day03.solution/extract-numbers (solution.clj:17)
+aoc2023.day03.solution/extract-numbers (solution.clj:16)
+aoc2023.day03.solution/eval8145 (form-init4608257254035623123.clj:73)
+aoc2023.day03.solution/eval8145 (form-init4608257254035623123.clj:70)
+clojure.lang.Compiler/eval (Compiler.java:7194)
+clojure.core/eval (core.clj:3215)
+clojure.core/eval (core.clj:3211)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:667)
+clojure.core/with-bindings* (core.clj:1990)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:218)
+nrepl.middleware.session/session-exec (session.clj:217)
+java.lang.Thread/run (Thread.java:833)
+clj꞉aoc2023.day03.solution꞉> 
+#{{:value 598, :from [9 5], :to [9 7]}
+  {:value 35, :from [2 2], :to [2 3]}
+  {:value 58, :from [5 7], :to [5 8]}
+  {:value 617, :from [4 0], :to [4 2]}
+  {:value 592, :from [6 2], :to [6 4]}
+  {:value 114, :from [0 5], :to [0 7]}
+  {:value 467, :from [0 0], :to [0 2]}
+  {:value 633, :from [2 6], :to [2 8]}
+  {:value 664, :from [9 1], :to [9 3]}
+  {:value 755, :from [7 6], :to [7 8]}}
+clj꞉aoc2023.day03.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day03.solution/extract-numbers (solution.clj:17).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.CharSequence (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.CharSequence is in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+({:value 598, :from [9 5], :to [9 7]}
+ {:value 35, :from [2 2], :to [2 3]}
+ {:value 58, :from [5 7], :to [5 8]}
+ {:value 617, :from [4 0], :to [4 2]}
+ {:value 592, :from [6 2], :to [6 4]}
+ {:value 114, :from [0 5], :to [0 7]}
+ {:value 467, :from [0 0], :to [0 2]}
+ {:value 633, :from [2 6], :to [2 8]}
+ {:value 664, :from [9 1], :to [9 3]}
+ {:value 755, :from [7 6], :to [7 8]})
+clj꞉aoc2023.day03.solution꞉> 
+; Evaluating file: solution.clj
+#{{:value 617, :locations #{[4 2] [4 1] [4 0]}}
+  {:value 114, :locations #{[0 6] [0 5] [0 7]}}
+  {:value 58, :locations #{[5 7] [5 8]}}
+  {:value 664, :locations #{[9 3] [9 2] [9 1]}}
+  {:value 598, :locations #{[9 6] [9 7] [9 5]}}
+  {:value 592, :locations #{[6 3] [6 4] [6 2]}}
+  {:value 755, :locations #{[7 6] [7 7] [7 8]}}
+  {:value 633, :locations #{[2 8] [2 7] [2 6]}}
+  {:value 35, :locations #{[2 2] [2 3]}}
+  {:value 467, :locations #{[0 0] [0 2] [0 1]}}}
+clj꞉aoc2023.day03.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day03/solution.clj:72:6).
+; Unable to resolve symbol: symbols-neighbours in this context
+clj꞉aoc2023.day03.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day03/solution.clj:72:6).
+; Unable to resolve symbol: symbols-neighbours in this context
+clj꞉aoc2023.day03.solution꞉> 
+#{[7 6]
+  [4 3]
+  [2 2]
+  [8 4]
+  [2 3]
+  [2 5]
+  [7 2]
+  [7 4]
+  [8 3]
+  [3 3]
+  [5 4]
+  [3 4]
+  [7 3]
+  [8 6]
+  [4 2]
+  [6 6]
+  [9 6]
+  [5 3]
+  [9 3]
+  [4 7]
+  [6 5]
+  [5 2]
+  [4 6]
+  [1 4]
+  [8 2]
+  [1 3]
+  [6 4]
+  [0 3]
+  [5 6]
+  [8 5]
+  [5 5]
+  [2 7]
+  [2 4]
+  [3 6]
+  [9 2]
+  [4 5]
+  [0 2]
+  [0 4]
+  [9 5]
+  [9 4]
+  [4 4]
+  [3 7]
+  [7 5]
+  [2 6]
+  [1 2]
+  [3 5]
+  [3 2]}
+clj꞉aoc2023.day03.solution꞉> 
+#{[0 2]}
+clj꞉aoc2023.day03.solution꞉> 
+false
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+({:value 114, :locations #{[0 6] [0 5] [0 7]}} {:value 58, :locations #{[5 7] [5 8]}})
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+({:value 114, :locations #{[0 6] [0 5] [0 7]}} {:value 58, :locations #{[5 7] [5 8]}})
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+#{{:value 617, :locations #{[4 2] [4 1] [4 0]}}
+  {:value 114, :locations #{[0 6] [0 5] [0 7]}}
+  {:value 58, :locations #{[5 7] [5 8]}}
+  {:value 664, :locations #{[9 3] [9 2] [9 1]}}
+  {:value 598, :locations #{[9 6] [9 7] [9 5]}}
+  {:value 592, :locations #{[6 3] [6 4] [6 2]}}
+  {:value 755, :locations #{[7 6] [7 7] [7 8]}}
+  {:value 633, :locations #{[2 8] [2 7] [2 6]}}
+  {:value 35, :locations #{[2 2] [2 3]}}
+  {:value 467, :locations #{[0 0] [0 2] [0 1]}}}
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+#function[clojure.core/filter/fn--5958]
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+({:value 617, :locations #{[4 2] [4 1] [4 0]}}
+ {:value 114, :locations #{[0 6] [0 5] [0 7]}}
+ {:value 58, :locations #{[5 7] [5 8]}}
+ {:value 664, :locations #{[9 3] [9 2] [9 1]}}
+ {:value 598, :locations #{[9 6] [9 7] [9 5]}}
+ {:value 592, :locations #{[6 3] [6 4] [6 2]}}
+ {:value 755, :locations #{[7 6] [7 7] [7 8]}}
+ {:value 633, :locations #{[2 8] [2 7] [2 6]}}
+ {:value 35, :locations #{[2 2] [2 3]}}
+ {:value 467, :locations #{[0 0] [0 2] [0 1]}})
+clj꞉aoc2023.day03.solution꞉> 
+; Evaluating file: solution.clj
+false
+clj꞉aoc2023.day03.solution꞉> 
+#{}
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+({:value 617, :locations #{[4 2] [4 1] [4 0]}}
+ {:value 664, :locations #{[9 3] [9 2] [9 1]}}
+ {:value 598, :locations #{[9 6] [9 7] [9 5]}}
+ {:value 592, :locations #{[6 3] [6 4] [6 2]}}
+ {:value 755, :locations #{[7 6] [7 7] [7 8]}}
+ {:value 633, :locations #{[2 8] [2 7] [2 6]}}
+ {:value 35, :locations #{[2 2] [2 3]}}
+ {:value 467, :locations #{[0 0] [0 2] [0 1]}})
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+4361
+clj꞉aoc2023.day03.solution꞉> 
+531482
+clj꞉aoc2023.day03.solution꞉> 
+(0)
+clj꞉aoc2023.day03.solution꞉> 
+()
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution-test/detect-symbol
+clj꞉aoc2023.day03.solution-test꞉> 
+()
+clj꞉aoc2023.day03.solution꞉> 
+(0)
+clj꞉aoc2023.day03.solution꞉> 
+()
+clj꞉aoc2023.day03.solution꞉> 
+; Evaluating file: solution.clj
+false
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+4361
+clj꞉aoc2023.day03.solution꞉> 
+531482
+clj꞉aoc2023.day03.solution꞉> 
+; Execution error (FileNotFoundException) at java.io.FileInputStream/open0 (FileInputStream.java:-2).
+; 467..114..
+; ...*......
+; ..35..633.
+; ......#...
+; 617*......
+; .....+.58.
+; ..592.....
+; ......755.
+; ...$.*....
+; .664.598.. (No such file or directory)
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+4361
+clj꞉aoc2023.day03.solution꞉> 
+4361
+clj꞉aoc2023.day03.solution꞉> 
+531482
+clj꞉aoc2023.day03.solution꞉> 
+4361
+clj꞉aoc2023.day03.solution꞉> 
+531482
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day03.solution/extract-numbers (solution.clj:17).
+; class clojure.lang.LazySeq cannot be cast to class java.lang.CharSequence (clojure.lang.LazySeq is in unnamed module of loader 'app'; java.lang.CharSequence is in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+4361
+clj꞉aoc2023.day03.solution꞉> 
+531482
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/extract-symbol-neighbours-by-line
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/extract-symbol-neighbours
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+4361
+clj꞉aoc2023.day03.solution꞉> 
+531482
+clj꞉aoc2023.day03.solution꞉> 
+4361
+clj꞉aoc2023.day03.solution꞉> 
+531482
+clj꞉aoc2023.day03.solution꞉> 
+; Evaluating file: solution.clj
+531482
+clj꞉aoc2023.day03.solution꞉> 
+531482
+clj꞉aoc2023.day03.solution꞉> 
+("1" "1")
+clj꞉aoc2023.day03.solution꞉> 
+#{{:value 1, :locations #{[0 0]}}}
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/regex-match-start-indices
+clj꞉aoc2023.day03.solution꞉> 
+[0 3]
+clj꞉aoc2023.day03.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day03/solution.clj:26:1).
+; Unable to resolve symbol: zip in this context
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/regex-match-index-value-pairs
+clj꞉aoc2023.day03.solution꞉> 
+[[0 "1"] [3 "1"]]
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/extract-number-in-line
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/extract-number-in-line
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/extract-numbers
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/non-digit-dot-indexes
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/extract-symbol-neighbours-by-line
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/extract-symbol-neighbours
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-one
+clj꞉aoc2023.day03.solution꞉> 
+4361
+clj꞉aoc2023.day03.solution꞉> 
+533775
+clj꞉aoc2023.day03.solution꞉> 
