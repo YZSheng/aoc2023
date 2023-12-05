@@ -10,8 +10,8 @@
      (set (for [n nums
                 :let [from-index (str/index-of line n)]]
             {:value (Integer/parseInt n)
-             :from [index from-index]
-             :to [index (+ from-index (dec (count n)))]})))))
+             :locations (set (for [i (range from-index (+ from-index (count n)))]
+                               [index i]))})))))
 
 (defn extract-numbers [lines]
   (apply set/union (for [index (range (count (str/split-lines lines)))
