@@ -122,3 +122,75 @@
 ......755
 ...$.*...
 .664.598."))))
+
+(deftest find-gears
+  (is (= #{{:neighbours #{[0 1]}
+            :location [0 0]}}
+         (sut/find-gears "*..")))
+  (is (= #{{:neighbours #{[0 0] [0 2]}
+            :location [0 1]}}
+         (sut/find-gears ".*.")))
+  (is (= #{{:neighbours #{[0 0] [0 1] [0 2]
+                          [1 0] [1 2]
+                          [2 0] [2 1] [2 2]}
+            :location [1 1]}}
+         (sut/find-gears "...\n.*.\n...")))
+  (is (= #{{:neighbours #{[0 0] [0 1] [0 2]
+                          [1 0] [1 2]
+                          [2 0] [2 1] [2 2]}
+            :location [1 1]}
+           {:neighbours #{[0 1] [0 2]
+                          [1 1]
+                          [2 1] [2 2]}
+            :location [1 2]}}
+         (sut/find-gears "...\n.**\n...")))
+  (is (= #{{:neighbours #{[0 1] [1 0] [1 1]}
+            :location [0 0]}}
+         (sut/find-gears "*..\n..."))))
+
+(deftest find-gears-with-numbers
+  (is (= #{{:neighbours #{[0 1]}
+            :location [0 0]
+            :numbers #{{:value 1
+                        :locations #{[0 1]}}}}}
+         (sut/find-gears-with-numbers "*1.")))
+  (is (= #{{:neighbours #{[0 1]}
+            :location [0 0]
+            :numbers #{}}}
+         (sut/find-gears-with-numbers "*.1")))
+  (is (= #{{:neighbours #{[0 1]}
+            :location [0 0]
+            :numbers #{{:value 21 :locations #{[0 1] [0 2]}}}}}
+         (sut/find-gears-with-numbers "*21")))
+  (is (= #{{:neighbours #{[0 1] [1 0] [1 1]}
+            :location [0 0]
+            :numbers #{{:value 21 :locations #{[0 1] [0 2]}}
+                       {:value 333 :locations #{[1 0] [1 1] [1 2]}}}}}
+         (sut/find-gears-with-numbers "*21.\n333.\n....")))
+  (is (= #{{:neighbours #{[0 1] [1 0] [1 1]}
+            :location [0 0]
+            :numbers #{{:value 21 :locations #{[0 1] [0 2]}}
+                       {:value 33 :locations #{[1 1] [1 2]}}}}}
+         (sut/find-gears-with-numbers "*21.\n.33.\n....")))
+  (is (= #{{:neighbours #{[0 2] [0 3] [1 2] [2 2] [2 3]}
+            :location [1 3]
+            :numbers #{{:value 467 :locations #{[0 0] [0 1] [0 2]}}
+                       {:value 35 :locations #{[2 3] [2 2]}}}}}
+         (sut/find-gears-with-numbers "467.\n...*\n..35")))
+  (is (= #{{:neighbours #{[0 1]}
+            :location [0 0]
+            :numbers #{}}}
+         (sut/find-gears-with-numbers "*.."))))
+
+(deftest part-two-solution
+  (is (= 16345 (sut/part-two "467.\n...*\n..35")))
+  (is (= 467835 (sut/part-two "467..114..
+...*......
+..35..633.
+......#...
+617*......
+.....+.58.
+..592.....
+......755.
+...$.*....
+.664.598.."))))

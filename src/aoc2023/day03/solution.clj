@@ -68,3 +68,50 @@
 
 (part-one (slurp "resources/day03/sample.txt"))
 (part-one (slurp "resources/day03/input.txt"))
+
+(defn find-gears-by-line [line row max-height]
+  (set (for [i (range (count line))
+             :let [ch (nth line i)
+                   max-w (dec (count line))]
+             :when (= \* ch)]
+         (let [all-neighbours  (set [[(max 0 (dec row)) (max 0 (dec i))]
+                                     [(max 0 (dec row)) i]
+                                     [(max 0 (dec row)) (min max-w (inc i))]
+                                     [row (max 0 (dec i))]
+                                     [row i]
+                                     [row (min max-w (inc i))]
+                                     [(min (inc row) max-height) (max 0 (dec i))]
+                                     [(min (inc row) max-height) i]
+                                     [(min (inc row) max-height) (min max-w (inc i))]])
+               location [row i]
+               neighbours (set/difference all-neighbours #{location})]
+           {:location location
+            :neighbours neighbours}))))
+
+(defn find-gears [lines]
+  (let [split-lines (str/split-lines lines)]
+    (apply set/union (for [row (range (count split-lines))
+                           :let [line (nth split-lines row)]]
+                       (find-gears-by-line line row (dec (count split-lines)))))))
+
+(defn is-adjacent [gear number]
+  (not-empty (set/intersection (:locations number) (:neighbours gear))))
+
+(defn find-gears-with-numbers [lines]
+  (let [gears (find-gears lines)
+        numbers (extract-numbers lines)]
+    (set (map (fn [gear]
+                (let [adjacent-numbers (set (filter #(is-adjacent gear %) numbers))]
+                  (assoc gear :numbers adjacent-numbers))) gears))))
+
+(defn part-two [lines]
+  (let [gears-with-numbers (find-gears-with-numbers lines)
+        gears-with-two-numbers (set (filter (fn [gears-with-number]
+                                              (= 2 (count (:numbers gears-with-number)))) gears-with-numbers))]
+    (->> gears-with-two-numbers
+         (map (fn [gears-with-two-number]
+                (apply * (map :value (:numbers gears-with-two-number)))))
+         (apply +))))
+
+(part-two (slurp "resources/day03/sample.txt"))
+(part-two (slurp "resources/day03/input.txt"))

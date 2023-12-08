@@ -337,3 +337,43 @@ clj꞉aoc2023.day03.solution꞉> 
 clj꞉aoc2023.day03.solution꞉> 
 533775
 clj꞉aoc2023.day03.solution꞉> 
+(\a \b \c)
+clj꞉aoc2023.day03.solution꞉> 
+\a
+clj꞉aoc2023.day03.solution꞉> 
+#{[2] [1]}
+clj꞉aoc2023.day03.solution꞉> 
+(0 1)
+clj꞉aoc2023.day03.solution꞉> 
+(2 3)
+clj꞉aoc2023.day03.solution꞉> 
+#{3 2}
+clj꞉aoc2023.day03.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day03/solution.clj:118:1).
+; Unable to resolve symbol: part-two in this context
+clj꞉aoc2023.day03.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day03/solution.clj:110:28).
+; Unable to resolve symbol: find-gears-with-numbers in this context
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/is-adjacent
+clj꞉aoc2023.day03.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day03/solution.clj:95:24).
+; Unable to resolve symbol: find-gears-by-line in this context
+clj꞉aoc2023.day03.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day03/solution.clj:95:24).
+; Unable to resolve symbol: find-gears-by-line in this context
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/find-gears-by-line
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/find-gears
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/is-adjacent
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/find-gears-with-numbers
+clj꞉aoc2023.day03.solution꞉> 
+#'aoc2023.day03.solution/part-two
+clj꞉aoc2023.day03.solution꞉> 
+467835
+clj꞉aoc2023.day03.solution꞉> 
+78236071
+clj꞉aoc2023.day03.solution꞉> 
