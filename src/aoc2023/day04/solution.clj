@@ -12,14 +12,18 @@
 
 (exp 2 3)
 
-(defn process-line [line]
+(defn process-winning-count [c]
+  (if (pos? c) (exp 2 (dec c)) 0))
+  
+(defn count-winning-in-line [line]
   (let [[_ winning-str ticket-str] (str/split line #"[|:]")
         winning-numbers (parse-numbers winning-str)
         ticket-numbers (parse-numbers ticket-str)
         winning (set/intersection ticket-numbers winning-numbers)]
-    (if (pos? (count winning))
-      (exp 2 (dec (count winning)))
-      0)))
+    (count winning)))
+
+(defn process-line [line]
+  (process-winning-count (count-winning-in-line line)))
 
 (process-line "Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53")
 (process-line "Card 5: 87 83 26 28 32 | 88 30 70 12 93 22 82 36")

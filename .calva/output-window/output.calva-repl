@@ -486,3 +486,32 @@ clj꞉aoc2023.day04.solution꞉> 
 clj꞉aoc2023.day04.solution꞉> 
 0
 clj꞉aoc2023.day04.solution꞉> 
+#'aoc2023.day04.solution/process-winning-count
+clj꞉aoc2023.day04.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day04/solution.clj:23:5).
+; Unable to resolve symbol: winningj in this context
+clj꞉aoc2023.day04.solution꞉> 
+#'aoc2023.day04.solution/process-line
+clj꞉aoc2023.day04.solution꞉> 
+#'aoc2023.day04.solution/process-winning-count
+clj꞉aoc2023.day04.solution꞉> 
+#'aoc2023.day04.solution/process-line
+clj꞉aoc2023.day04.solution꞉> 
+4
+clj꞉aoc2023.day04.solution꞉> 
+0
+clj꞉aoc2023.day04.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day04/solution.clj:26:26).
+; Unable to resolve symbol: count-winning-in-line in this context
+clj꞉aoc2023.day04.solution꞉> 
+#'aoc2023.day04.solution/count-winning-in-line
+clj꞉aoc2023.day04.solution꞉> 
+#'aoc2023.day04.solution/process-line
+clj꞉aoc2023.day04.solution꞉> 
+8
+clj꞉aoc2023.day04.solution꞉> 
+0
+clj꞉aoc2023.day04.solution꞉> 
+; Evaluating file: solution.clj
+22897
+clj꞉aoc2023.day04.solution꞉> 
