@@ -19,6 +19,9 @@
 (solution "resources/day01/sample.txt")
 (solution "resources/day01/input.txt")
 
+;; Replaces number words in the input string with number digits  
+;; and additional digits, e.g. "one" becomes "one1one". This transforms
+;; the input to make calculating the priority easier.
 (defn clean-input [s]
   (reduce (fn [acc [old new]]
             (string/replace acc old new))
