@@ -174,3 +174,264 @@ clj꞉aoc2023.day06.solution꞉> 
 clj꞉aoc2023.day06.solution꞉> 
 71503
 clj꞉aoc2023.day06.solution꞉> 
+2
+clj꞉aoc2023.day07.solution꞉> 
+nil
+clj꞉aoc2023.day07.solution꞉> 
+2
+clj꞉aoc2023.day07.solution꞉> 
+nil
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+["3" "2" "T" "3" "K"]
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+{"3" 2, "2" 1, "T" 1, "K" 1}
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+(2 1 1 1)
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+(1 1 1 2)
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+[1 1 1 2]
+clj꞉aoc2023.day07.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day07/solution.clj:19:7).
+; Unable to resolve symbol: hand-strength in this context
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/hand-strength
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+nil
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+[1 1 1 2]
+clj꞉aoc2023.day07.solution꞉> 
+7000
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/hand-strength
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+2000
+clj꞉aoc2023.day07.solution꞉> 
+2000
+clj꞉aoc2023.day07.solution꞉> 
+4000
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-cards-value
+clj꞉aoc2023.day07.solution꞉> 
+["3" "2" "T" "3" "K"]
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/fourteen-power
+clj꞉aoc2023.day07.solution꞉> 
+14
+clj꞉aoc2023.day07.solution꞉> 
+196
+clj꞉aoc2023.day07.solution꞉> 
+2744
+clj꞉aoc2023.day07.solution꞉> 
+1
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/fifteenteen-power
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-cards-value
+clj꞉aoc2023.day07.solution꞉> 
+["3" "2" "T" "3" "K"]
+clj꞉aoc2023.day07.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day07/solution.clj:32:7).
+; Unable to resolve symbol: card-to-number in this context
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/card-to-number
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-cards-value
+clj꞉aoc2023.day07.solution꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.APersistentVector/null (APersistentVector.java:297).
+; Key must be integer
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-cards-value
+clj꞉aoc2023.day07.solution꞉> 
+(3 2 10 3 13)
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-cards-value
+clj꞉aoc2023.day07.solution꞉> 
+(13 3 10 2 3)
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/hex-digits
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/hex-to-decimal
+clj꞉aoc2023.day07.solution꞉> 
+64796.0
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-cards-value
+clj꞉aoc2023.day07.solution꞉> 
+(3 2 10 3 13)
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/card-to-decimal
+clj꞉aoc2023.day07.solution꞉> 
+160933.0
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-cards-value
+clj꞉aoc2023.day07.solution꞉> 
+160933.0
+clj꞉aoc2023.day07.solution꞉> 
+160933.0
+clj꞉aoc2023.day07.solution꞉> 
+151874.0
+clj꞉aoc2023.day07.solution꞉> 
+162722.0
+clj꞉aoc2023.day07.solution꞉> 
+379928.0
+clj꞉aoc2023.day07.solution꞉> 
+379703.0
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+162933.0
+clj꞉aoc2023.day07.solution꞉> 
+528420.0
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+528420.0
+clj꞉aoc2023.day07.solution꞉> 
+160933.0
+clj꞉aoc2023.day07.solution꞉> 
+162933.0
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/hand-strength
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/card-to-number
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/card-to-decimal
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-cards-value
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-hand-score
+clj꞉aoc2023.day07.solution꞉> 
+160933.0
+clj꞉aoc2023.day07.solution꞉> 
+2.0160933E7
+clj꞉aoc2023.day07.solution꞉> 
+4.052442E7
+clj꞉aoc2023.day07.solution꞉> 
+("32T3K" "T55J5" "KK677" "KTJJT" "QQQJA")
+clj꞉aoc2023.day07.solution꞉> 
+3.0703462E7
+clj꞉aoc2023.day07.solution꞉> 
+3.0694525E7
+clj꞉aoc2023.day07.solution꞉> 
+3.0703462E7
+clj꞉aoc2023.day07.solution꞉> 
+759374.0
+clj꞉aoc2023.day07.solution꞉> 
+759374.0
+clj꞉aoc2023.day07.solution꞉> 
+7.0759374E7
+clj꞉aoc2023.day07.solution꞉> 
+3.0694525E7
+clj꞉aoc2023.day07.solution꞉> 
+3.0703462E7
+clj꞉aoc2023.day07.solution꞉> 
+4.052442E7
+clj꞉aoc2023.day07.solution꞉> 
+379928.0
+clj꞉aoc2023.day07.solution꞉> 
+379703.0
+clj꞉aoc2023.day07.solution꞉> 
+("32T3K" "T55J5" "KK677" "KTJJT" "QQQJA")
+clj꞉aoc2023.day07.solution꞉> 
+4.052442E7
+clj꞉aoc2023.day07.solution꞉> 
+("32T3K" "KTJJT" "KK677" "T55J5" "QQQJA")
+clj꞉aoc2023.day07.solution꞉> 
+["32T3K 765" "T55J5 684" "KK677 28" "KTJJT 220" "QQQJA 483"]
+clj꞉aoc2023.day07.solution꞉> 
+(["32T3K" "765"] ["T55J5" "684"] ["KK677" "28"] ["KTJJT" "220"] ["QQQJA" "483"])
+clj꞉aoc2023.day07.solution꞉> 
+(["32T3K" "765"] ["KTJJT" "220"] ["KK677" "28"] ["T55J5" "684"] ["QQQJA" "483"])
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/parse-input
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/parse-input
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/part-1
+clj꞉aoc2023.day07.solution꞉> 
+; Execution error (FileNotFoundException) at java.io.FileInputStream/open0 (FileInputStream.java:-2).
+; resources/input07/sample.txt (No such file or directory)
+clj꞉aoc2023.day07.solution꞉> 
+(765 684 28 220 483)
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/calculate-total-winnings
+clj꞉aoc2023.day07.solution꞉> 
+5512
+clj꞉aoc2023.day07.solution꞉> 
+(0 1 2 3 4)
+clj꞉aoc2023.day07.solution꞉> 
+765
+clj꞉aoc2023.day07.solution꞉> 
+2133
+clj꞉aoc2023.day07.solution꞉> 
+2133
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/part-1
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/part-1
+clj꞉aoc2023.day07.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day07.solution/calculate-hand-score (form-init13353099101718200580.clj:47).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.CharSequence (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.CharSequence is in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/part-1
+clj꞉aoc2023.day07.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day07.solution/calculate-hand-score (form-init13353099101718200580.clj:47).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.CharSequence (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.CharSequence is in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/part-1
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/part-1
+clj꞉aoc2023.day07.solution꞉> 
+(["32T3K" "765"] ["T55J5" "684"] ["KK677" "28"] ["KTJJT" "220"] ["QQQJA" "483"])
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/part-1
+clj꞉aoc2023.day07.solution꞉> 
+; Execution error (ClassCastException) at aoc2023.day07.solution/calculate-hand-score (form-init13353099101718200580.clj:47).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.CharSequence (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.CharSequence is in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/part-1
+clj꞉aoc2023.day07.solution꞉> 
+(["32T3K" "765"] ["KTJJT" "220"] ["KK677" "28"] ["T55J5" "684"] ["QQQJA" "483"])
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/part-1
+clj꞉aoc2023.day07.solution꞉> 
+("765" "220" "28" "684" "483")
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/part-1
+clj꞉aoc2023.day07.solution꞉> 
+(765 220 28 684 483)
+clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.solution/part-1
+clj꞉aoc2023.day07.solution꞉> 
+6440
+clj꞉aoc2023.day07.solution꞉> 
+248105065
+clj꞉aoc2023.day07.solution꞉> 
+6440
+clj꞉aoc2023.day07.solution꞉> 
