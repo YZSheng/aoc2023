@@ -23,3 +23,18 @@
 
 (part-1 "resources/day06/sample.txt")
 (part-1 "resources/day06/input.txt")
+
+
+(defn part-2 [input]
+  (->> input
+       slurp
+       string/split-lines
+       (map #(re-seq #"\d+" %))
+       (map (fn [nums-str]
+              (apply str nums-str)))
+       (map parse-long)
+       vec
+       (get-race-results)))
+
+(part-2 "resources/day06/sample.txt")
+(part-2 "resources/day06/input.txt")

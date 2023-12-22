@@ -88,3 +88,70 @@ clj꞉aoc2023.day06.solution꞉> 
 clj꞉aoc2023.day06.solution꞉> 
 2344708
 clj꞉aoc2023.day06.solution꞉> 
+"12"
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-2
+clj꞉aoc2023.day06.solution꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.day06.solution/part-2 (form-init13353099101718200580.clj:37).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-2
+clj꞉aoc2023.day06.solution꞉> 
+"940200"
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-2
+clj꞉aoc2023.day06.solution꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.day06.solution/part-2 (form-init13353099101718200580.clj:37).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-2
+clj꞉aoc2023.day06.solution꞉> 
+(7 15 30)
+(9 40 200)
+; Execution error (IllegalArgumentException) at aoc2023.day06.solution/part-2 (form-init13353099101718200580.clj:38).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉aoc2023.day06.solution꞉> 
+940200
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-2
+clj꞉aoc2023.day06.solution꞉> 
+(7 15 30)
+(9 40 200)
+; Execution error (IllegalArgumentException) at aoc2023.day06.solution/part-2 (form-init13353099101718200580.clj:38).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉aoc2023.day06.solution꞉> 
+; Syntax error compiling at (src/aoc2023/day06/solution.clj:32:8).
+; Unable to resolve symbol: input in this context
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-2
+clj꞉aoc2023.day06.solution꞉> 
+(("7" "15" "30") ("9" "40" "200"))
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-2
+clj꞉aoc2023.day06.solution꞉> 
+("71530" "940200")
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-2
+clj꞉aoc2023.day06.solution꞉> 
+(71530 940200)
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-2
+clj꞉aoc2023.day06.solution꞉> 
+; Execution error (ArityException) at aoc2023.day06.solution/part-2 (form-init13353099101718200580.clj:36).
+; Wrong number of args (2) passed to: aoc2023.day06.solution/get-race-results
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-2
+clj꞉aoc2023.day06.solution꞉> 
+[71530 940200]
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-2
+clj꞉aoc2023.day06.solution꞉> 
+; Execution error (ArityException) at aoc2023.day06.solution/part-2 (form-init13353099101718200580.clj:37).
+; Wrong number of args (2) passed to: aoc2023.day06.solution/get-race-results
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-2
+clj꞉aoc2023.day06.solution꞉> 
+71503
+clj꞉aoc2023.day06.solution꞉> 
+30125202
+clj꞉aoc2023.day06.solution꞉> 
