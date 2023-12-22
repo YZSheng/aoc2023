@@ -155,3 +155,22 @@ clj꞉aoc2023.day06.solution꞉> 
 clj꞉aoc2023.day06.solution꞉> 
 30125202
 clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.utils/read-lines-of-numbers
+clj꞉aoc2023.utils꞉> 
+nil
+clj꞉aoc2023.utils꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/aoc2023/day06/solution.clj:1:1).
+; ((:require [clojure.string :as string aoc2023.utils :as u])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+clj꞉aoc2023.day06.solution꞉> 
+nil
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-1
+clj꞉aoc2023.day06.solution꞉> 
+288
+clj꞉aoc2023.day06.solution꞉> 
+2344708
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-2
+clj꞉aoc2023.day06.solution꞉> 
+71503
+clj꞉aoc2023.day06.solution꞉> 

@@ -1,5 +1,6 @@
 (ns aoc2023.day06.solution
-  (:require [clojure.string :as string]))
+  (:require [clojure.string :as string]
+            [aoc2023.utils :as u]))
 
 (defn get-race-results [[t distance]]
   (->> (for [hold-t (range 1 t)
@@ -12,9 +13,7 @@
 
 (defn part-1 [input]
   (->> input
-       slurp
-       string/split-lines
-       (map #(re-seq #"\d+" %))
+       u/read-lines-of-numbers
        (map (fn [nums-str]
               (map parse-long nums-str)))
        (apply map vector)
@@ -27,9 +26,7 @@
 
 (defn part-2 [input]
   (->> input
-       slurp
-       string/split-lines
-       (map #(re-seq #"\d+" %))
+       u/read-lines-of-numbers
        (map (fn [nums-str]
               (apply str nums-str)))
        (map parse-long)
