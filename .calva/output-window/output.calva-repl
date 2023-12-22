@@ -435,3 +435,221 @@ clj꞉aoc2023.day07.solution꞉> 
 clj꞉aoc2023.day07.solution꞉> 
 6440
 clj꞉aoc2023.day07.solution꞉> 
+#'aoc2023.day07.part2/card-to-number
+clj꞉aoc2023.day07.part2꞉> 
+; Syntax error compiling at (src/aoc2023/day07/part2.clj:40:3).
+; Unable to resolve symbol: hand-strength in this context
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/hand-strength
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/card-to-number
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/card-to-decimal
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/calculate-cards-value
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/calculate-hand-strength
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/parse-input
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/calculate-total-winnings
+clj꞉aoc2023.day07.part2꞉> 
+; Syntax error compiling at (src/aoc2023/day07/part2.clj:66:17).
+; Unable to resolve symbol: calculate-hand-score in this context
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/calculate-hand-score
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/part-1
+clj꞉aoc2023.day07.part2꞉> 
+; Syntax error compiling at (src/aoc2023/day07/part2.clj:71:1).
+; Unable to resolve symbol: part-2 in this context
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/part-2
+clj꞉aoc2023.day07.part2꞉> 
+6440
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+{"K" 1, "T" 2, "J" 2}
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+"hi"
+clj꞉aoc2023.day07.part2꞉> 
+; Execution error (NullPointerException) at aoc2023.day07.part2/map-j (form-init13353099101718200580.clj:50).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉aoc2023.day07.part2꞉> 
+; Execution error (NullPointerException) at aoc2023.day07.part2/map-j (form-init13353099101718200580.clj:50).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉aoc2023.day07.part2꞉> 
+2
+clj꞉aoc2023.day07.part2꞉> 
+"hi"
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+"hi"
+clj꞉aoc2023.day07.part2꞉> 
+"22222"
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+"KTJJT"
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+"KTTTT"
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+"KTTTT"
+clj꞉aoc2023.day07.part2꞉> 
+"T5555"
+clj꞉aoc2023.day07.part2꞉> 
+"25522"
+clj꞉aoc2023.day07.part2꞉> 
+"52255"
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+"KTTTT"
+clj꞉aoc2023.day07.part2꞉> 
+"T5555"
+clj꞉aoc2023.day07.part2꞉> 
+"52255"
+clj꞉aoc2023.day07.part2꞉> 
+"25522"
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+"KTTTT"
+clj꞉aoc2023.day07.part2꞉> 
+"T5555"
+clj꞉aoc2023.day07.part2꞉> 
+"52255"
+clj꞉aoc2023.day07.part2꞉> 
+"55522"
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+; Execution error (ClassCastException) at aoc2023.day07.part2/card-to-decimal$fn (form-init13353099101718200580.clj:28).
+; class java.lang.Character cannot be cast to class java.lang.Number (java.lang.Character and java.lang.Number are in module java.base of loader 'bootstrap')
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+"KTTTT"
+clj꞉aoc2023.day07.part2꞉> 
+"T5555"
+clj꞉aoc2023.day07.part2꞉> 
+"52255"
+clj꞉aoc2023.day07.part2꞉> 
+"55522"
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+"KTTTT"
+clj꞉aoc2023.day07.part2꞉> 
+"T5555"
+clj꞉aoc2023.day07.part2꞉> 
+"52255"
+clj꞉aoc2023.day07.part2꞉> 
+"55522"
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/calculate-hand-score
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/parse-input
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/calculate-total-winnings
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/part-2
+clj꞉aoc2023.day07.part2꞉> 
+5905
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/part-2
+clj꞉aoc2023.day07.part2꞉> 
+(765 28 684 483 220)
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/part-2
+clj꞉aoc2023.day07.part2꞉> 
+(["32T3K" "765"] ["KK677" "28"] ["T55J5" "684"] ["QQQJA" "483"] ["KTJJT" "220"])
+clj꞉aoc2023.day07.part2꞉> 
+6.052427E7
+clj꞉aoc2023.day07.part2꞉> 
+3.0703462E7
+clj꞉aoc2023.day07.part2꞉> 
+6.052427E7
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/part-2
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/calculate-hand-score
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/part-2
+clj꞉aoc2023.day07.part2꞉> 
+5905
+clj꞉aoc2023.day07.part2꞉> 
+; Execution error (NullPointerException) at java.lang.String/replace (String.java:2955).
+; Cannot invoke "java.lang.CharSequence.toString()" because "replacement" is null
+clj꞉aoc2023.day07.part2꞉> 
+"22222"
+clj꞉aoc2023.day07.part2꞉> 
+java.lang.String/replace (String.java:2955)
+clojure.string/replace (string.clj:104)
+clojure.string/replace (string.clj:75)
+aoc2023.day07.part2/map-j (form-init13353099101718200580.clj:52)
+aoc2023.day07.part2/map-j (form-init13353099101718200580.clj:48)
+aoc2023.day07.part2/calculate-hand-score (form-init13353099101718200580.clj:66)
+aoc2023.day07.part2/calculate-hand-score (form-init13353099101718200580.clj:65)
+clojure.core/comp (core.clj:2586)
+clojure.core/sort-by (core.clj:3132)
+clojure.lang.AFunction/compare (AFunction.java:51)
+java.util.TimSort/binarySort (TimSort.java:296)
+java.util.TimSort/sort (TimSort.java:239)
+java.util.Arrays/sort (Arrays.java:1233)
+clojure.core/sort (core.clj:3116)
+clojure.core/sort-by (core.clj:3120)
+aoc2023.day07.part2/part-2 (form-init13353099101718200580.clj:83)
+aoc2023.day07.part2/part-2 (form-init13353099101718200580.clj:80)
+aoc2023.day07.part2/eval9397 (form-init13353099101718200580.clj:89)
+clojure.lang.Compiler/eval (Compiler.java:7194)
+clojure.core/eval (core.clj:3215)
+clojure.core/eval (core.clj:3211)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:667)
+clojure.core/with-bindings* (core.clj:1990)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:218)
+nrepl.middleware.session/session-exec (session.clj:217)
+java.lang.Thread/run (Thread.java:833)
+clj꞉aoc2023.day07.part2꞉> 
+; Execution error (NullPointerException) at java.lang.String/replace (String.java:2955).
+; Cannot invoke "java.lang.CharSequence.toString()" because "replacement" is null
+clj꞉aoc2023.day07.part2꞉> 
+; Execution error (NullPointerException) at java.lang.String/replace (String.java:2955).
+; Cannot invoke "java.lang.CharSequence.toString()" because "replacement" is null
+clj꞉aoc2023.day07.part2꞉> 
+#'aoc2023.day07.part2/map-j
+clj꞉aoc2023.day07.part2꞉> 
+"KTTTT"
+clj꞉aoc2023.day07.part2꞉> 
+"T5555"
+clj꞉aoc2023.day07.part2꞉> 
+"52255"
+clj꞉aoc2023.day07.part2꞉> 
+"55522"
+clj꞉aoc2023.day07.part2꞉> 
+"AAAAA"
+clj꞉aoc2023.day07.part2꞉> 
+5905
+clj꞉aoc2023.day07.part2꞉> 
+249515436
+clj꞉aoc2023.day07.part2꞉> 
