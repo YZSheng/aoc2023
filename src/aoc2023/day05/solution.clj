@@ -62,8 +62,59 @@
          (map #(get-destination humidity-to-location-map %))
          (apply min))))
 
+
+(->> "seeds: 79 14 55 13"
+     (re-seq #"\d+")
+     (map parse-long)
+     (partition 2)
+     (map (fn [[start count]]
+            (range start (+ start count))))
+     (apply concat))
+
+(defn seed-from-range [input]
+  (->> input
+       (re-seq #"\d+")
+       (map parse-long)
+       (partition 2)
+       (map (fn [[start count]]
+              (range start (+ start count))))
+       (apply concat)))
+
+(defn part-two [input]
+  (let [parsed (->> input
+                    (slurp)
+                    (#(str/split % #"\n\n")))
+        [seeds
+         seed-to-soil
+         soil-to-fertilizer
+         fertilizer-to-water
+         water-to-light
+         light-to-temperature
+         temperature-to-humidity
+         humidity-to-location] parsed
+        seed-numbers (seed-from-range seeds)
+        seed-to-soil-map (parse-line-to-map seed-to-soil)
+        soil-to-fertilizer-map (parse-line-to-map soil-to-fertilizer)
+        fertilizer-to-water-map (parse-line-to-map fertilizer-to-water)
+        water-to-light-map (parse-line-to-map water-to-light)
+        light-to-temperature-map (parse-line-to-map light-to-temperature)
+        temperature-to-humidity-map (parse-line-to-map temperature-to-humidity)
+        humidity-to-location-map (parse-line-to-map humidity-to-location)]
+    (->> seed-numbers
+         (map #(get-destination seed-to-soil-map %))
+         (map #(get-destination soil-to-fertilizer-map %))
+         (map #(get-destination fertilizer-to-water-map %))
+         (map #(get-destination water-to-light-map %))
+         (map #(get-destination light-to-temperature-map %))
+         (map #(get-destination temperature-to-humidity-map %))
+         (map #(get-destination humidity-to-location-map %))
+         (apply min))))
+
 (part-one "resources/day05/sample.txt")
 (part-one "resources/day05/input.txt")
+
+(part-two "resources/day05/sample.txt")
+(part-two "resources/day05/input.txt")
 
 (comment
   (get-destination [[[98 99] [50 51]]] 99)
