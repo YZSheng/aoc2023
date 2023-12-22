@@ -32,3 +32,59 @@ clj꞉aoc2023.core꞉> 
 clj꞉aoc2023.day05.solution꞉> 
 46
 clj꞉aoc2023.day05.solution꞉> 
+nil
+clj꞉aoc2023.day06.solution꞉> 
+2
+clj꞉aoc2023.day06.solution꞉> 
+(0 1 2 3)
+clj꞉aoc2023.day06.solution꞉> 
+(1 2 3)
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/get-race-results
+clj꞉aoc2023.day06.solution꞉> 
+([1 6] [2 10] [3 12] [4 12] [5 10] [6 6])
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/get-race-results
+clj꞉aoc2023.day06.solution꞉> 
+([2 10] [3 12] [4 12] [5 10])
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/get-race-results
+clj꞉aoc2023.day06.solution꞉> 
+4
+clj꞉aoc2023.day06.solution꞉> 
+([1 4] [2 5] [3 6])
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-1
+clj꞉aoc2023.day06.solution꞉> 
+#function[clojure.string/split-lines]
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-1
+clj꞉aoc2023.day06.solution꞉> 
+nil
+clj꞉aoc2023.day06.solution꞉> 
+["Time:      7  15   30" "Distance:  9  40  200"]
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-1
+clj꞉aoc2023.day06.solution꞉> 
+(("7" "15" "30") ("9" "40" "200"))
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-1
+clj꞉aoc2023.day06.solution꞉> 
+((7 15 30) (9 40 200))
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-1
+clj꞉aoc2023.day06.solution꞉> 
+([7 9] [15 40] [30 200])
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/get-race-results
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-1
+clj꞉aoc2023.day06.solution꞉> 
+(4 8 9)
+clj꞉aoc2023.day06.solution꞉> 
+#'aoc2023.day06.solution/part-1
+clj꞉aoc2023.day06.solution꞉> 
+288
+clj꞉aoc2023.day06.solution꞉> 
+2344708
+clj꞉aoc2023.day06.solution꞉> 
