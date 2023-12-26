@@ -1,4 +1,4 @@
-(ns aoc2023.day09.solution 
+(ns aoc2023.day09.solution
   (:require [aoc2023.utils :as u]))
 
 (defn calculate-delta [nums]
@@ -20,12 +20,22 @@
        (map last)
        (apply +)))
 
-(defn solve-part-one [input]
+(defn solve [input f]
   (->> input
        u/read-lines-of-numbers
        (map #(map parse-long %))
+       (map f)
        (map predict-next)
        (apply +)))
 
+(defn solve-part-one [input]
+  (solve input identity))
+
 (solve-part-one "resources/day09/sample.txt")
 (solve-part-one "resources/day09/input.txt")
+
+(defn solve-part-two [input]
+  (solve input reverse))
+
+(solve-part-two "resources/day09/sample.txt")
+(solve-part-two "resources/day09/input.txt")
