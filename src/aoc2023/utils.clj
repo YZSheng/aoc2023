@@ -5,4 +5,5 @@
   (->> input
        slurp
        str/split-lines
-       (map #(re-seq #"-?\d+" %))))
+       (map #(re-seq #"-?\d+" %))
+       (map #(map parse-long %))))

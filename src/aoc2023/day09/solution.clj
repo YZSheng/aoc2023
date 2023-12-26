@@ -23,7 +23,6 @@
 (defn solve [input f]
   (->> input
        u/read-lines-of-numbers
-       (map #(map parse-long %))
        (map f)
        (map predict-next)
        (apply +)))
